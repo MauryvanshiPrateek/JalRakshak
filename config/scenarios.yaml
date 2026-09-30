@@ -1,0 +1,21 @@
+scenarios:
+  small:
+    name: "Small Breach"
+    breach_width_m: 10
+    breach_depth_m: 5
+    formation_time_min: 20
+    duration_min: 30
+
+  medium:
+    name: "Medium Breach"
+    breach_width_m: 30
+    breach_depth_m: 15
+    formation_time_min: 10
+    duration_min: 60
+
+  severe:
+    name: "Severe Breach"
+    breach_width_m: 60
+    breach_depth_m: 25
+    formation_time_min: 5
+    duration_min: 90

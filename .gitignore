@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.streamlit/secrets.toml
+*.log
+.DS_Store
+
+# Generated simulation outputs
+outputs/*
+!outputs/.gitkeep
+
+# Large raw datasets
+data/raw/*
+!data/raw/.gitkeep
